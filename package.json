@@ -1,0 +1,17 @@
+{
+  "name": "campus-resource-sharing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campus Resource Sharing Platform - localized peer-to-peer campus marketplace",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  }
+}
