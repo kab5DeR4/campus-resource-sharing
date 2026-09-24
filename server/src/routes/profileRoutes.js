@@ -1,0 +1,11 @@
+const express = require('express');
+const { getProfile, updateProfile } = require('../controllers/profileController');
+const { requireAuth } = require('../middleware/auth');
+
+const router = express.Router();
+
+router.get('/', requireAuth, getProfile);
+router.get('/:id', requireAuth, getProfile);
+router.patch('/', requireAuth, updateProfile);
+
+module.exports = router;
