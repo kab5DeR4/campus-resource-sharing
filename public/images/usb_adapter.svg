@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f1f5f9"/>
+  <!-- Adapter Body -->
+  <rect x="120" y="110" width="160" height="90" rx="12" fill="#334155" stroke="#1e293b" stroke-width="3"/>
+  <!-- Ports -->
+  <rect x="140" y="135" width="35" height="15" rx="3" fill="#0284c7"/>
+  <rect x="185" y="135" width="45" height="15" rx="2" fill="#0f172a" stroke="#64748b"/>
+  <rect x="240" y="135" width="25" height="40" rx="2" fill="#0f172a"/>
+  <!-- Labels -->
+  <text x="157" y="165" font-family="sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">HDMI 4K</text>
+  <text x="207" y="165" font-family="sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">USB 3.0</text>
+  <text x="252" y="190" font-family="sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">VGA</text>
+  <!-- Cable -->
+  <path d="M 120 155 C 70 155 70 80 140 80" stroke="#475569" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- USB Type C plug -->
+  <rect x="140" y="72" width="24" height="16" rx="4" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  <rect x="164" y="76" width="12" height="8" rx="2" fill="#cbd5e1"/>
+</svg>

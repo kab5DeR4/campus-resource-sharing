@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f1f5f9"/>
+  <!-- Caliper Steel Bar -->
+  <rect x="40" y="140" width="320" height="20" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+  <!-- Ruler Marks -->
+  <g stroke="#334155" stroke-width="1">
+    <line x1="60" y1="140" x2="60" y2="150"/><line x1="70" y1="140" x2="70" y2="146"/><line x1="80" y1="140" x2="80" y2="146"/><line x1="90" y1="140" x2="90" y2="146"/><line x1="100" y1="140" x2="100" y2="150"/>
+    <line x1="110" y1="140" x2="110" y2="146"/><line x1="120" y1="140" x2="120" y2="146"/><line x1="130" y1="140" x2="130" y2="146"/><line x1="140" y1="140" x2="140" y2="150"/>
+    <line x1="150" y1="140" x2="150" y2="146"/><line x1="160" y1="140" x2="160" y2="146"/><line x1="170" y1="140" x2="170" y2="146"/><line x1="180" y1="140" x2="180" y2="150"/>
+  </g>
+  <!-- Fixed Jaw -->
+  <path d="M 60 140 L 60 220 L 75 190 L 75 140 Z" fill="#64748b" stroke="#334155" stroke-width="2"/>
+  <path d="M 60 140 L 60 90 L 75 110 L 75 140 Z" fill="#64748b" stroke="#334155" stroke-width="2"/>
+  <!-- Sliding LCD Block -->
+  <rect x="150" y="115" width="85" height="70" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="2"/>
+  <rect x="160" y="130" width="65" height="25" rx="3" fill="#a7f3d0"/>
+  <text x="220" y="148" font-family="monospace" font-size="16" fill="#064e3b" text-anchor="end" font-weight="bold">24.58mm</text>
+  <!-- Moving Jaw -->
+  <path d="M 150 140 L 150 220 L 165 190 L 165 140 Z" fill="#64748b" stroke="#334155" stroke-width="2"/>
+</svg>

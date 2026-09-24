@@ -4,6 +4,7 @@
   "private": true,
   "description": "Campus Resource Sharing Platform - localized peer-to-peer campus marketplace",
   "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build",
     "server": "npm --prefix server start",
     "server:dev": "npm --prefix server run dev",
     "client": "npm --prefix client run dev",
